@@ -39,10 +39,10 @@ from scorecard_generator import scorecard
 
 # Load your trained classification model and data
 # Replace these with your own data and model
-classification_method = Trained Model()
-feature_names = Feature Names
-X_test = Test Data
-y_test = Test Labels
+classification_method = TrainedModel()
+feature_names = FeatureNames
+X_test = TestData
+y_test = TestLabels
 
 # Generate the scorecard
 feature_score, total_score = scorecard(classification_method, feature_names, X_test, y_test, min_score=300, max_score=850)
