@@ -18,7 +18,7 @@ You can install the Scorecard Generator via pip:
 
 ``` bash
 
-pip install scorecard_generator==2.1.9
+pip install scorecard_generator==2.2.0
 ```
 
 ## Load Package
@@ -45,7 +45,7 @@ X_test = TestData
 y_test = TestLabels
 
 # Generate the scorecard
-feature_score, total_score = scorecard(classification_method, feature_names, X_test, y_test, min_score=300, max_score=850)
+feature_score, total_score, styled_total_score = scorecard(classification_method, feature_names, X_test, y_test, min_score=300, max_score=850)
 
 # Print the feature scorecard
 print(feature_score)
