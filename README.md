@@ -18,7 +18,7 @@ You can install the Scorecard Generator via pip:
 
 ``` bash
 
-pip install scorecard_generator==2.1.5
+pip install scorecard_generator==2.1.9
 ```
 
 ## Load Package
