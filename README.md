@@ -1,5 +1,7 @@
 # Scorecard Generator
 
+[![Downloads](https://pepy.tech/badge/scorecard_generator)](https://pepy.tech/project/scorecard_generator)
+
 The Scorecard Generator is a Python library that facilitates the creation of scorecards from classification model predictions. Scorecards are commonly used in credit scoring and fraud or risk assessment to evaluate the creditworthiness or risk level of individuals.
 
 ## Features
